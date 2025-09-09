@@ -149,6 +149,7 @@ app.delete("/api/users/:id", async (req, res) => {
 //--- ROTAS DE AUTENTICAÇÃO ---
 
 // Login
+/*
 app.post("/api/login", async (req, res) => {
   try {
     const { email, password } = req.body;
@@ -177,6 +178,7 @@ app.post("/api/login", async (req, res) => {
     res.status(500).json({ error: "Erro interno no login." });
   }
 });
+*/
 
 // Inicia servidor
 app.listen(PORT, () => {
